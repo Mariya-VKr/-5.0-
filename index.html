@@ -5,8 +5,8 @@
     <meta name="keywords" content="вёрстка, HTML, CSS, блог">
     <meta name="description" content="Блог о процессе обучения веб-технологиям">
     <title>Сайт начинающего верстальщика</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="header-page">
@@ -58,12 +58,112 @@
         </div>
       </section>
            
-      <section>
-        Раздел про навыки
+      <section class="section-state">
+        <ul>
+          <li><h2>5</h2><p>лет опыта</p></li>
+          <li><h2>100</h2><p>проектов</p></li>
+          <li><h2>10</h2><p>наград</p></li>
+        </ul>
       </section>
+      <section class="section-ourwork">
+        <h2 class="section-head">Наши работы</h2>
+        <div class="section-work">
+          <div class="section-work1"></div>
+          <div class="section-work2"></div>
+          <div class="section-work3"></div>
+          <div class="section-work4"></div>
+          <a href="#" class="link">Оставить заявку</a>
+        </div>
+        <ul>
+        </ul>
+      
+      </section>
+      <section class="command">
+        <h2 class="section-head">Команда</h2>
+        <img src="images/command1.jpg" alt="" class="command-image" width="445" height="465">
+        <p>Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается
+          и помогает сделать вашу квартиру красивой и уютной.</p>
+          <img src="images/command2.jpg" alt="" class="command-image" width="445" height="465">
+        <p>С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы
+          и ответит на все вопросы.</p>
+          <img src="images/command3.jpg" alt="" class="command-image" width="445" height="465">
+        <p>Катя тоже занимается дизайном.
+          Она всегда находит общий язык
+          с клиентами и точно знает,
+          как обустроить дом так, чтобы вам понравилось.</p>
+      </section>
+      <section class="command-work">
+        <ol>
+          <li>Знакомимся, выезжаем
+            на объект, утверждаем концепцию, подписываем договор.</li>
+            <li>Подбираем мебель, текстиль, аксессуары. Делаем 3D-
+              визуализацию.</li>
+            <li>Находим нужные магазины, помогаем с доставкой
+              и оплатой товаров.</li>
+            <li>Воплощаем проект в жизнь:
+              расставляем мебель и цветы, вешаем шторы, находим места для мелочей</li>
+        </ol>
+      
+      </section>
+      <section class="section-feedback">
+        <h2 class="section-head">Отзывы</h2>
+        <div class="feedback-block">
+          <div class="feedback-arrow-left">
+           </div>
+            <div class="feedback-part1">
+ <figure class="quote">
+              <blockquote>
+                «Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
+
+Работа шла быстро, было очень приятно общаться и взаимодействовать
+с сотрудниками. Не ожидала, что это будет так легко!
+
+Буду советовать и своим друзьям к вам обращаться!»
+              </blockquote>
+              <figcaption>
+                АННА БЕЛОВСКАЯ
+               </figcaption>
+            </figure>
+          </div>
+
+            
+            <div class="feedback-part2"></div>
+            <div class="feedback-part3"></div>
+            <div class="feedback-arrow-right"></div>
+        </div>
+      
+      </section>
+      <section  class="section-application">
+        <h2 class="section-head">Оставить заявку</h2>
+          <div class="application-block1">
+            <form>
+            <fieldset>
+              <legend>Оставьте свои контакты. Менеджер перезвонит
+                в удобное вам время и ответит на все вопросы.</legend>
+              <label>Ваше имя<input type="text" required></label>
+              <label>Введите телефон<input type="phone" required></label>
+             </fieldset>
+             <button type="submit">Оставить заявку</button> 
+            </form>
+          </div>
+          <div class="application-block2">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae45c8a0dc01e9387d1c1e390157e61a11ac8ec2626a41d311918d6222d4479c7&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+          </div>
+      </section>
+      
     </main>
     <footer>
-      Подвал сайта
+     <div class="section-footer">
+      <div class="footer-phone">
+        <a  href="tel:+79818574624" clacc="phone">+7 (981) 857-46-24</a>
+      </div>
+      <div class="footer-address">
+        <span>г. Санкт-петербург, ул. Большая Конюшенная, 19</span>
+      </div>
+      <div class="footer-master">
+       <span>ИП Королёва А.А.</span>
+      </div>
+     </div>
     </footer>
   </body>
 </html>
