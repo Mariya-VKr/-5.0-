@@ -1,0 +1,112 @@
+/* Обычный */
+@font-face {
+	font-family: 'Montserrat Medium'; 
+	src: url(../fonts/Montserrat-Medium.ttf); 
+}
+ 
+/* Жирный */
+@font-face {
+	font-family: 'Montserrat'; 
+	src: url(../fonts/Montserrat-Regular.ttf); 
+}
+html, body {
+    padding: 0;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Georgia";
+    background: #E5E5E5;
+    font-family: 'Montserrat';
+    font-style: normal;
+  }
+  
+  h1 {
+    font-size: 32px;
+    line-height: normal;
+  }
+  
+  h2 {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .maskGroup{
+
+    width: 1400px;
+    height: 715px;
+    left: 1400px;
+    top: 0px;
+    
+    background: #F9EAE1;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  .frame1 {
+ 
+    width: 1416.98px;
+    height: 715px;
+    left: 1415.97px;
+    top: 0px;
+     background: url(images/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash.jpg);
+    transform: matrix(-1, 0, 0, 1, 0, 0); 
+    color: #533738;
+  }
+
+ a {
+    color: #533738;
+ }
+  a.logotext {
+    position: absolute;
+    left: 124px;
+    top: 38px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+ 
+  }
+
+  .main-head{
+    font-size: 50px;
+    font-weight: 50px;
+    line-height: 62px;
+  }
+
+  nav.main-menu ul {
+    padding-left: 278px;
+    padding-top: 38px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+
+  }
+  
+  .main-menu li {
+    display: inline-block;
+    margin-right: 2em;
+  }
+  
+  .main-menu a {
+    color: white;
+  }
+
+.promo-description{
+  font-size: 18px;
+  line-height: 30px;
+
+}
+.button{
+    font-weight: 500;
+   font-size: 20px;
+  line-height: 24px;
+  color: #533738;
+
+  }
+  
+  footer {
+    margin-top: 30px;
+  }
+  
